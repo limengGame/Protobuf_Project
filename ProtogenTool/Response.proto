@@ -1,0 +1,42 @@
+package hrv;
+
+option java_package = "com.sixfoot.hrv.codec.protobuf";
+option java_outer_classname = "ResponseProto";
+
+message Response {
+	extensions 100 to max;
+	enum Status {
+		OK = 0;
+		ERROR = 1;
+	}
+	required Status status = 1;
+	optional string timestamp = 2;
+}
+
+message RespFailed {
+	required int32 code = 1;
+	required string error = 2;
+	required string errorDescription = 3;
+
+	extend Response {
+		optional RespFailed respfailed = 100;
+	}
+}
+
+message RespSuccess {
+	extend Response {
+		optional RespSuccess respSuccess = 101;
+	}
+	extensions 100 to max;
+	enum Type {
+		LOGIN = 0;
+		CHANGE_PASSWORD = 1;
+		RESOURCE_LIST = 2;
+		SAVE_SCALE = 3;
+		UPDATE_USER_INFO = 4;
+		GET_SCALE_LIST = 5;
+		GET_SCALE = 6;
+	}
+	required Type type = 1;
+	//required string result = 2;
+}

@@ -1,0 +1,8 @@
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\bin\Debug\Server_Chat.exe.config
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\bin\Debug\Server_Chat.exe
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\bin\Debug\Server_Chat.pdb
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\bin\Debug\protobuf-net.dll
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\bin\Debug\protobuf-net.xml
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\obj\Debug\Server_Chat.csprojResolveAssemblyReference.cache
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\obj\Debug\Server_Chat.exe
+E:\UnityProject\Protobuf_Chat_Test\Protobuf_Chat_Client\Server\Server_Chat\Server_Chat\obj\Debug\Server_Chat.pdb

@@ -1,0 +1,14 @@
+package hrv;
+
+import "Response.proto";
+
+option java_package = "com.sixfoot.hrv.codec.protobuf";
+option java_outer_classname = "UpdateUserInfoRespProto";
+
+message UpdateUserInfoResp {
+	required string result = 1;
+
+	extend RespSuccess {
+		optional UpdateUserInfoResp UpdateUserInfoResp = 104;
+	}
+}

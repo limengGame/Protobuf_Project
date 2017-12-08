@@ -1,0 +1,25 @@
+package hrv;
+
+option java_package = "com.sixfoot.hrv.codec.protobuf";
+option java_outer_classname = "RequestProto";
+
+message Request {
+	extensions 100 to max;
+	enum Type {
+		LOGIN = 0;
+		CHANGE_PASSWORD = 1;
+		START_SCALE = 2;
+		STOP_SCALE = 3;
+		DATA_PPG = 4;
+		DATA_EP = 5;
+		DATA_HRV = 6;
+		DATA_IBI = 7;
+		MARK_SCALE = 8;
+		RESOURCE_LIST = 9;
+		UPDATE_USER_INFO = 10;
+		GET_SCALE_LIST = 11;
+		GET_SCALE = 12;
+	}
+	required Type type = 1;
+	optional string timestamp = 2;
+}
